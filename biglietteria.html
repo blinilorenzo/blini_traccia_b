@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festival della musica 2026</title>
+    <title>Biglietti - Festival della musica 2026</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,18 +22,35 @@
             text-decoration: none;
             margin: 0 10px;
         }
-        h1 {
+        h1, h2 {
             color: #ffb347;
-            margin-bottom: 10px;
         }
-        p {
+        p, li {
             font-size: 18px;
             margin: 8px 0;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
         }
         img {
             max-width: 100%;
             border-radius: 8px;
             margin-top: 20px;
+        }
+        button {
+            background-color: #ffb347;
+            color: #1e1e2f;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ffc978;
         }
     </style>
 </head>
@@ -45,11 +62,18 @@
         <a href="biglietteria.html">Biglietti</a>
         <a href="informazioni_logistiche.html">Piantina del posto</a>
         <a href="line_up.html">Dettagli evento</a>
+
     </nav>
 
-    <h1>Festival della musica 2026</h1>
-    <p><strong>Sede:</strong> Unipol Forum, Assago</p>
-    <p><strong>Artisti:</strong> Gemitaiz, Ernia, Promessa, Jake la furia, Emis Killa.</p>
-    <img src="https://www.ticketone.it/obj/media/IT-eventim/teaser/venue/984x333/2024/unipol-forum-biglietti.jpg" alt="Unipol Forum di Assago">
+    <h1>Biglietti</h1>
+    <p>Scegli il tipo di biglietto che preferisci.</p>
+    <h2>Tipologie</h2>
+    <ul>
+        <li>Parterre: 35€</li>
+        <li>Tribuna: 40€</li>
+        <li>Parterre VIP 55€</li>
+    </ul>
+    <br>
+    <button>Acquista</button>
 </body>
 </html>
